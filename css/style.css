@@ -1,0 +1,103 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  background-image: url('../images/banner.jpg'); /* Update with actual path */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Adjust text color for better visibility */
+  text-align: center;
+  padding: 100px 20px; /* Increased height for a taller banner */
+}
+
+header h1, header p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  margin: 0; /* Removes default margins to keep layout tight */
+  padding: 5px 10px; /* Adds some padding around the text */
+}
+
+
+.button-link {
+  background-color: #FFB6C1; /* Soft pink that complements the color scheme */
+  color: #5C4033; /* Brown text color that matches the darker tones in the background */
+  border: 2px solid #FFDAB9; /* Peach border for a subtle contrast */
+  padding: 12px 24px; /* Larger padding for a prominent, clickable area */
+  font-size: 18px; /* Larger font size for readability */
+  border-radius: 30px; /* Pill-shaped border radius for a friendly feel */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  text-decoration: none; /* Removes the underline */
+  display: inline-block; /* Allows block level properties */
+  transition: all 0.2s ease-in-out; /* Smooth transition for interaction */
+  margin: 4px 2px; /* Margins to ensure some spacing around the button */
+}
+
+.button-link:hover {
+  background-color: #FFC0CB; /* Lighter pink on hover */
+  color: #6B4226; /* Darker brown on hover for better contrast */
+  transform: translateY(-2px); /* Button lifts up slightly */
+  text-decoration: none; /* Ensures the underline doesn't reappear on hover */
+}
+
+
+
+
+main {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  width: 300px; /* Fixed width for each card */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Enhanced shadow for a 3D effect */
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px; /* Rounded corners for the card */
+  overflow: hidden; /* Ensures nothing spills out of the card's rounded corners */
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slightly raises the card on hover for a dynamic effect */
+}
+
+.card img {
+  width: 80%; /* Slightly smaller to fit nicely within the card */
+  height: auto;
+  border-radius: 50%; /* Makes the image round */
+  margin-top: 20px; /* Adds space above the image */
+  border: 3px solid white; /* White border around the image */
+}
+
+.card h2 {
+  margin: 10px 0; /* Top and bottom margin for the name */
+  color: #333; /* Dark gray color for better readability */
+}
+
+.card p {
+  padding: 0 10px 20px; /* Padding around the description text */
+  font-size: 14px; /* Slightly smaller font size for the description */
+  color: #666; /* Lighter text color for a subtle look */
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+footer a {
+  color: white; /* Changes the color of the icons */
+  margin: 0 10px;
+  font-size: 30px; /* Adjust the size of the icons */
+}
